@@ -1,0 +1,31 @@
+<nav class="navbar navbar-inverse">
+
+    <div class="container">
+
+        <div class="navbar-header">
+
+            <img src="images/Logo.jpg" style="width: 50px; float: left;" /><a class="navbar-brand" href="#">Omega Six Security</a>
+
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Why Omega Six</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <div ng-show="!ctrl.service.userlogedin" style="display: -moz-box; padding: 15px 10px;">
+                <li><a ui-sref="register" style=" text-decoration:none; padding-right: 10px;  color: white;"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a ui-sref="login" style=" text-decoration:none; color: white"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </div>
+            <div ng-show="ctrl.service.userlogedin" style="display: -moz-box; padding: 15px 10px;">
+                <li>
+                    <a href="" style="text-decoration:none; padding-right: 10px;  color: white" ng-click="ctrl.service.logout()"><span class="glyphicon glyphicon-log-out"></span> Log Out</a>
+                </li>
+
+                <li><a ui-sref="userDetailss" style="text-decoration:none; color: white">{{ctrl.service.user.username}}</a></li>
+            </div>
+        </ul>
+
+    </div>
+</nav>

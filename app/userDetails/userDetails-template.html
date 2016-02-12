@@ -1,0 +1,239 @@
+<center>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-0 col-sm-offset-0 col-md-offset-3 col-lg-offset-3 toppad">
+
+
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">{{ctrl.details.userName}}</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-3 col-lg-3 " align="center"> <img alt="User Pic" src="images/avatar.jpg" class="img-circle img-responsive"> </div>
+
+                            <!--<div class="col-xs-10 col-sm-10 hidden-md hidden-lg"> <br>
+                  <dl>
+                    <dt>DEPARTMENT:</dt>
+                    <dd>Administrator</dd>
+                    <dt>HIRE DATE</dt>
+                    <dd>11/12/2013</dd>
+                    <dt>DATE OF BIRTH</dt>
+                       <dd>11/12/2013</dd>
+                    <dt>GENDER</dt>
+                    <dd>Male</dd>
+                  </dl>
+                </div>-->
+                            <div class=" col-md-9 col-lg-9 ">
+                                <table class="table table-user-information">
+                                    <tbody>
+                                        <tr>
+                                            <td>Adress Line 1 :</td>
+                                            <td>
+                                                <input type="text" class="form-control" ng-model="ctrl.details.shippingAddress.addressLine1"
+                                                />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Adress Line 2 :</td>
+                                            <td>
+                                                <input type="text" class="form-control" ng-model="ctrl.details.shippingAddress.addressLine2"
+                                                />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Adress Line 3 :</td>
+                                            <td>
+                                                <input type="text" class="form-control" ng-model="ctrl.details.shippingAddress.addressLine3"
+                                                />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Adress Line 4 :</td>
+                                            <td>
+                                                <input type="text" class="form-control" ng-model="ctrl.details.shippingAddress.addressLine4"
+                                                />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Adress Line 5 :</td>
+                                            <td>
+                                                <input type="text" class="form-control" ng-model="ctrl.details.shippingAddress.addressLine5"
+                                                />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Adress Line 6 :</td>
+                                            <td>
+                                                <input type="text" class="form-control" ng-model="ctrl.details.shippingAddress.addressLine6"
+                                                />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Alternate Email :</td>
+                                            <td>
+                                                <input type="text" class="form-control" ng-model="ctrl.details.shippingAddress.alternateEmail"
+                                                />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Cell Phone :</td>
+                                            <td>
+                                                <input type="text" class="form-control" ng-model="ctrl.details.shippingAddress.cellPhone"
+                                                />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Cell Phone Carrier :</td>
+                                            <td>
+                                                <input type="text" class="form-control" ng-model="ctrl.details.shippingAddress.cellPhoneCarrier"
+                                                />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>City :</td>
+                                            <td>
+                                                <input type="text" class="form-control" ng-model="ctrl.details.shippingAddress.city"
+                                                />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Contact Priority :</td>
+                                            <td>
+                                                <input type="text" class="form-control" ng-model="ctrl.details.shippingAddress.contactPriority"
+                                                />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Cross Streat :</td>
+                                            <td>
+                                                <input type="text" class="form-control" ng-model="ctrl.details.shippingAddress.crossStreat"
+                                                />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Email :</td>
+                                            <td>
+                                                <input type="email" class="form-control" ng-model="ctrl.details.shippingAddress.email"
+                                                />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>First Name :</td>
+                                            <td>
+                                                <input type="text" class="form-control" ng-model="ctrl.details.shippingAddress.firstName"
+                                                />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Home Phone :</td>
+                                            <td>
+                                                <input type="text" class="form-control" ng-model="ctrl.details.shippingAddress.homePhone"
+                                                />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Last Modified :</td>
+                                            <td>
+                                                <input type="text" class="form-control" ng-model="ctrl.details.shippingAddress.lastModified"
+                                                />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Last Name :</td>
+                                            <td>
+                                                <input type="text" class="form-control" ng-model="ctrl.details.shippingAddress.lastName"
+                                                />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Middle Name :</td>
+                                            <td>
+                                                <input type="text" class="form-control" ng-model="ctrl.details.shippingAddress.middleName"
+                                                />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Municipality :</td>
+                                            <td>
+                                                <input type="text" class="form-control" ng-model="ctrl.details.shippingAddress.municipality"
+                                                />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Passcode :</td>
+                                            <td>
+                                                <input type="text" class="form-control" ng-model="ctrl.details.shippingAddress.passcode"
+                                                />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Person Info Key :</td>
+                                            <td>
+                                                <input type="text" class="form-control" ng-model="ctrl.details.shippingAddress.personInfoKey"
+                                                />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Postal Code :</td>
+                                            <td>
+                                                <input type="text" class="form-control" ng-model="ctrl.details.shippingAddress.postalCode"
+                                                />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Realtime Notifications Sent As </td>
+                                            <td>
+                                                <input type="text" class="form-control" ng-model="ctrl.details.shippingAddress.realtimeNotificationSentAs"
+                                                />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>State :</td>
+                                            <td>
+                                                <input type="text" class="form-control" ng-model="ctrl.details.shippingAddress.state"
+                                                />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Timezone :</td>
+                                            <td>
+                                                <input type="text" class="form-control" ng-model="ctrl.details.shippingAddress.timezone"
+                                                />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Work Phone :</td>
+                                            <td>
+                                                <input type="text" class="form-control" ng-model="ctrl.details.shippingAddress.workPhone"
+                                                />
+                                            </td>
+                                        </tr>
+
+
+
+
+                                    </tbody>
+                                </table>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel-footer" style="height: 60px;">
+                        <a data-original-title="Broadcast Message" data-toggle="tooltip" type="button"><img src="images/Logo.jpg" style="width: 50px; float: left;" />
+                            <a href="#"></a>
+                        </a>
+                        <div class="pull-right">
+                            <button class="btn btn-info" ng-click="ctrl.editUser();" data-original-title="Edit this user" data-toggle="tooltip" type="button">
+                                </i>Confirm Editing</button>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</center>

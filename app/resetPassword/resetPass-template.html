@@ -1,0 +1,21 @@
+<div class="modal" tabindex="-1" role="dialog" aria-hidden="true" ng-controller="resetCtrl as ctrl">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="coup-titles">Enter your email</h3>
+            </div>
+            <div class="modal-body">
+
+
+                <div class="body-content">
+                    <form ng-submit="ctrl.resetPass(); $hide()">
+                        <input type="email" placeholder="Enter email..." ng-model="ctrl.reset.email" class="form-control" />
+                        <input type="submit" style="margin-top: 7px;" class="btn btn-info" value="Retrieve Password" />
+                    </form>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>

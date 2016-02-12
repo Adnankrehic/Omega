@@ -1,0 +1,50 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Omega Six Security</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/Site.css" rel="stylesheet">
+  <link href="js/profile.js">
+  <link href="css/angular-growl.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+  <script src="js/angular-strap.min.js"></script>
+  <script src="js/angular-strap.tpl.min.js"></script>
+  <script src="js/jsc-auto-validate.min.js"></script>
+  <script src="js/angular-growl.min.js"></script>
+  
+
+   
+  <script src="app/app.js"></script>
+  <script src="app/app-service.js"></script>
+  <script src="ui-router.min.js"></script>
+  <script src="bootbox.js"></script>
+  <script src="bootbox.min.js"></script>
+<script src="app/register/register-modul.js"></script>
+  <script src="app/register/register-controller.js"></script>
+  <script src="app/login/login-module.js"></script>
+  <script src="app/login/login-controller.js"></script>
+  <script src="app/resetPassword/resetPass-module.js"></script>
+  <script src="app/resetPassword/resetPass-controller.js"></script>
+  <script src="app/navbar/navbar-modul.js"></script>
+  <script src="app/navbar/navbar-controller.js"></script>  
+  <script src="app/navbar/navbar-directive.js"></script>
+  <script src="app/userDetails/userDetails-modul.js"></script>
+  <script src="app/userDetails/userDetails-controller.js"></script>
+  
+</head>
+<body ng-app="omega" >
+
+<navbar-directive></navbar-directive>
+<div growl></div>
+
+
+<div ui-view></div>
+</body>
+
+
+</html> 
+
